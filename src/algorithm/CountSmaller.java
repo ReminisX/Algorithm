@@ -19,4 +19,17 @@ public class CountSmaller {
     	}
 		return counts;
     }
+    
+    /*
+     * test solution
+     */
+    public static void main(String[] args) {
+    	CountSmaller C = new CountSmaller();
+    	List<Integer> counts = new ArrayList<Integer>();
+    	int[] nums = {1, 3, 5, 3, 2, 4};
+    	counts = C.countSmaller1(nums);
+    	System.out.println(counts);
+    }
+    
+    
 }
