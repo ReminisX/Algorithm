@@ -1,16 +1,12 @@
 package algorithm;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-public class Test {
-	
-	
+public class test {
 
-	public static void main(String[] args) {
-		String str = "sdfghjk";
-		char[] char1 = str.toCharArray();
-		System.out.println(char1[0] == 115);
-	}
-
+    public static void main(String[] args){
+        String a = "-14";
+        int b = Integer.parseInt(a);
+        System.out.println(b);
+    }
 }
