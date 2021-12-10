@@ -1,8 +1,6 @@
 package algorithm;
 
-import Data_Structure.ListNode;
-
-import java.util.HashMap;
+import datastructure.ListNode;
 
 /**
  * @author l

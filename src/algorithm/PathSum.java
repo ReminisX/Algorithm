@@ -1,6 +1,6 @@
 package algorithm;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class PathSum {
 	public int pathSum(TreeNode root, int sum) {

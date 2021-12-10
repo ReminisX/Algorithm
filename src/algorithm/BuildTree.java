@@ -1,24 +1,24 @@
 package algorithm;
 
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class BuildTree {
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
-		// ±ß½çÇé¿öÅÐ¶Ï
+		// ï¿½ß½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½
 		if(preorder.length == 0) {
 			return null;
 		}
-		// ³õÊ¼»¯¸ù½Úµã
+		// ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
         TreeNode N = new TreeNode(preorder[0]);
-        // ¼ÆËã·Ö¸îÖÐÐò±éÀúÊý×éµÄ×ø±ê
+        // ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         int k = 0;
         for (int i = 0; i < inorder.length; i++) {
 			if(inorder[i] == N.val) {
 				k = i;
 			}
 		}
-        // ·Ö¸îÖÐÐòÊý×é
+        // ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         int[] inorder_left = new int[k];
         int[] inorder_right = new int[inorder.length - k - 1];
         for (int i = 0; i < inorder_left.length; i++) {
@@ -27,7 +27,7 @@ public class BuildTree {
         for (int i = 0; i < inorder_right.length; i++) {
 			inorder_right[i] = inorder[k+i+1];
 		}
-        // ·Ö¸îÇ°ÐòÊý×é
+        // ï¿½Ö¸ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         int[] preorder_left = new int[inorder_left.length];
         int[] preorder_right = new int[inorder_right.length];
         for (int i = 0; i < preorder_left.length; i++) {
@@ -36,7 +36,7 @@ public class BuildTree {
         for (int i = 0; i < preorder_right.length; i++) {
 			preorder_right[i] = preorder[preorder_left.length + i + 1];
 		}
-        //µÝ¹éÇó½â
+        //ï¿½Ý¹ï¿½ï¿½ï¿½ï¿½
         N.left = this.buildTree(preorder_left, inorder_left);
         N.right = this.buildTree(preorder_right, inorder_right);
         return N;

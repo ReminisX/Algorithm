@@ -1,5 +1,7 @@
 package algorithm;
 
+import java.util.*;
+
 public class CanJump {
 	public boolean canJump(int[] nums) {
 		
@@ -53,6 +55,10 @@ public class CanJump {
 		int[] nums = {2, 3, 1, 1, 4};
 		boolean b = C.canJump2(nums);
 		System.out.println(b);
-		
+
+		List<Number> numss = new ArrayList<>();
+		List<Integer> r = new ArrayList<>();
+		r.add(1);
+		numss.addAll(r);
 	}
 }

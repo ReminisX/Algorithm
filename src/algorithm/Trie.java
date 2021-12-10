@@ -3,10 +3,8 @@ package algorithm;
 import java.util.HashMap;
 import java.util.Map;
 
-import Data_Structure.ListNode;
-
 class Trie {
-	// 指向所有存在的下一个字符
+	// 指锟斤拷锟斤拷锟叫达拷锟节碉拷锟斤拷一锟斤拷锟街凤拷
     private Map<Character, Map> map;
 
     /**

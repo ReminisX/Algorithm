@@ -1,10 +1,6 @@
 package algorithm;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
-
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class MaxPathSum {
     private int res = Integer.MIN_VALUE;

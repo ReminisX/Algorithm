@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Stack;
 
-import Data_Structure.ListNode;
+import datastructure.ListNode;
 
 public class GetIntersectionNode {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

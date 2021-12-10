@@ -1,6 +1,6 @@
 package algorithm;
 
-import Data_Structure.ListNode;
+import datastructure.ListNode;
 
 /**
  * Definition for singly-linked list.

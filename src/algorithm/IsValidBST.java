@@ -1,8 +1,6 @@
 package algorithm;
 
-import java.util.List;
-
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 /**
  * Definition for a binary tree node.

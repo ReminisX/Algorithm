@@ -1,4 +1,4 @@
-package Data_Structure;
+package datastructure;
 
 public class SingleLinkedList {
 	

@@ -1,8 +1,6 @@
 package algorithm;
 
-import java.util.Stack;
-
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class IsSymmetric {
 	public boolean isSymmetric(TreeNode root) {

@@ -1,8 +1,6 @@
 package algorithm;
 
-import javax.swing.RootPaneContainer;
-
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class Flatten {
 	

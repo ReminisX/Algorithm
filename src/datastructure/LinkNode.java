@@ -1,4 +1,4 @@
-package Data_Structure;
+package datastructure;
 
 public class LinkNode {
 	private int value;

@@ -1,6 +1,6 @@
 package algorithm;
 
-import Data_Structure.ListNode;
+import datastructure.ListNode;
 
 public class SortList {
 	public ListNode sortList(ListNode head) {

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class MaxDepth {
 	public int maxDepth(TreeNode root) {

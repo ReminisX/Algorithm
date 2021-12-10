@@ -1,6 +1,6 @@
 package algorithm;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class Codec {
 	private int index = -1;

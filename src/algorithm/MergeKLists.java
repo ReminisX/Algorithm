@@ -1,12 +1,10 @@
 package algorithm;
 
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import Data_Structure.ListNode;
+import datastructure.ListNode;
 
 /**
  * Definition for singly-linked list.

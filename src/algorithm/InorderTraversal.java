@@ -3,7 +3,7 @@ package algorithm;
 import java.util.ArrayList;
 import java.util.List;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class InorderTraversal {
 	public List<Integer> inorderTraversal(TreeNode root) {

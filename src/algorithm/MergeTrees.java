@@ -1,6 +1,6 @@
 package algorithm;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class MergeTrees {
 	public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {

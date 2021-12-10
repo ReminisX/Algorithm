@@ -1,8 +1,6 @@
 package algorithm;
 
-import java.util.Stack;
-
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class LowestCommonAncestor {
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

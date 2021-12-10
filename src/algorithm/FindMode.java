@@ -1,9 +1,8 @@
 package algorithm;
 
 import java.util.*;
-import java.util.Map.Entry;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class FindMode {
 	public int[] findMode(TreeNode root) {

@@ -1,4 +1,4 @@
-package Data_Structure;
+package datastructure;
 
 public class ArrayQueue {
 	private int maxSize;
@@ -13,27 +13,27 @@ public class ArrayQueue {
         rear = -1;
     }
 
-    //ÅÐ¶Ï¶ÓÁÐÊÇ·ñÂú
+    //ï¿½Ð¶Ï¶ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½
     public boolean isFull(){
         return rear == maxSize - 1;
     }
 
-    //ÅÐ¶Ï¶ÓÁÐÊÇ·ñÎª¿Õ
+    //ï¿½Ð¶Ï¶ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Îªï¿½ï¿½
     public boolean isEmpty(){
         return rear == front;
     }
 
-    //Ìí¼ÓÊý¾Ýµ½¶ÓÁÐ
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½
     public void addQueue(int k){
         if(isFull()){
-            System.out.println("¶ÓÁÐÂú£¬²»ÄÜ¼ÓÈë...");
+            System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½...");
             return;
         }
         rear++;
         array[rear] = k;
     }
 
-    //»ñÈ¡¶ÓÁÐµÄÊý¾Ý£¬³ö¶ÓÁÐ
+    //ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public int getQueue(){
         if(this.isEmpty()){
             System.out.println("Queue is empty");
@@ -43,7 +43,7 @@ public class ArrayQueue {
         return array[front];
     }
 
-    //ÏÔÊ¾¶ÓÁÐµÄËùÓÐÊý¾Ý
+    //ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public void showQueueAll(){
         if(this.isEmpty()){
             System.out.println("Queue is empty");
@@ -53,7 +53,7 @@ public class ArrayQueue {
         }
     }
 
-    //ÏÔÊ¾¶ÓÁÐµÄÍ·Êý¾Ý
+    //ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ðµï¿½Í·ï¿½ï¿½ï¿½ï¿½
     public int showQueueHead(){
         if(isEmpty()){
             System.out.println("Queue is empty");

@@ -1,6 +1,6 @@
 package algorithm;
 
-import Data_Structure.TreeNode;
+import datastructure.TreeNode;
 
 public class SumOfLeftLeaves {
 	public int sumOfLeftLeaves(TreeNode root) {
